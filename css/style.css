@@ -1,8 +1,23 @@
+@font-face {
+  font-family: Bionicle training card;
+  src: url("../fonts/bionicle-training-card-font-2-4.ttf");
+}
+body {
+  height: 100%;
+  background-image: url("../img/Forest2.png");
+}
+
 .main_div {
   position: relative;
 }
 
 .background {
+  position: absolute;
+  z-index: 2;
+}
+
+.background2 {
+  display: none;
   position: absolute;
   z-index: 2;
 }
@@ -22,6 +37,10 @@
   margin-top: 10%;
   padding-right: 13%;
   padding-left: 6%;
+}
+
+.container {
+  max-width: 100%;
 }
 
 .container:nth-child(2) {
@@ -48,7 +67,7 @@
   width: 211px;
   background-color: white;
   text-align: center;
-  font-family: sans-serif;
+  font-family: Bionicle training card;
   font-weight: bold;
   padding: 15px 20px;
   border-radius: 20px;
@@ -81,4 +100,13 @@
   -webkit-filter: drop-shadow(0px 0px 10px wheat);
           filter: drop-shadow(0px 0px 10px wheat);
   scale: 1.02 1.02;
+}
+
+@media (max-width: 1860px) {
+  .background2 {
+    display: block;
+  }
+  .background {
+    display: none;
+  }
 }
