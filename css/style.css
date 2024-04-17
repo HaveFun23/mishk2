@@ -7,7 +7,6 @@ body {
      -moz-user-select: none;
       -ms-user-select: none;
           user-select: none;
-  height: 100%;
   overflow: hidden;
   background-color: rgb(34, 41, 32);
 }
@@ -119,6 +118,6 @@ body {
 }
 @media (max-height: 690px) {
   .main_text {
-    margin-top: 14vh;
+    margin-top: 11vh;
   }
 }
