@@ -28,7 +28,7 @@ body {
 .animals {
   display: flex;
   justify-content: space-around;
-  margin-top: 10%;
+  margin-top: 20vh;
   padding-right: 13%;
   padding-left: 6%;
 }
@@ -44,7 +44,7 @@ body {
 }
 .main_text {
   text-align: center;
-  margin-top: 11%;
+  margin-top: 19vh;
 }
 .main_text:hover {
   filter: drop-shadow(0px 0px 10px wheat);
@@ -81,11 +81,18 @@ body {
     scale: 1.02 1.02;
   }
 }
-@media (max-width: 1860px) {
-  .background2 {
-    display: block;
+@media (max-height: 850px) {
+  .animals {
+    margin-top: 15vh;
   }
-  .background {
-    display: none;
+}
+@media (max-height: 770px) {
+  .animals {
+    margin-top: 10vh;
+  }
+}
+@media (max-height: 690px) {
+  .main_text {
+    margin-top: 14vh;
   }
 }
