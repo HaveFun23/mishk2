@@ -9,6 +9,7 @@ body {
           user-select: none;
   height: 100%;
   overflow: hidden;
+  background-color: rgb(34, 41, 32);
 }
 
 .main_div {
