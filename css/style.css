@@ -8,7 +8,7 @@ body {
       -ms-user-select: none;
           user-select: none;
   height: 100%;
-  background-image: url("../img/Forest2.png");
+  overflow: hidden;
 }
 
 .main_div {
@@ -48,7 +48,7 @@ body {
 }
 
 .container:nth-child(2) {
-  padding-top: 10%;
+  padding-top: 180px;
   padding-left: 4%;
 }
 
