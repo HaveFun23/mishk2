@@ -21,7 +21,10 @@ body {
 }
 
 .background2,
-.background3 {
+.background3,
+.background4,
+.background5,
+.background6 {
   display: none;
   position: absolute;
   z-index: 2;
@@ -138,6 +141,15 @@ body {
   .background3 {
     display: none;
   }
+  .background4 {
+    display: none;
+  }
+  .background5 {
+    display: none;
+  }
+  .background6 {
+    display: none;
+  }
 }
 @media (max-width: 1530px) {
   .background {
@@ -147,6 +159,75 @@ body {
     display: none;
   }
   .background3 {
+    display: block;
+  }
+  .background4 {
+    display: none;
+  }
+  .background5 {
+    display: none;
+  }
+  .background6 {
+    display: none;
+  }
+}
+@media (max-width: 1360px) {
+  .background {
+    display: none;
+  }
+  .background2 {
+    display: none;
+  }
+  .background3 {
+    display: none;
+  }
+  .background4 {
+    display: block;
+  }
+  .background5 {
+    display: none;
+  }
+  .background6 {
+    display: none;
+  }
+}
+@media (max-width: 1210px) {
+  .background {
+    display: none;
+  }
+  .background2 {
+    display: none;
+  }
+  .background3 {
+    display: none;
+  }
+  .background4 {
+    display: none;
+  }
+  .background5 {
+    display: block;
+  }
+  .background6 {
+    display: none;
+  }
+}
+@media (max-width: 1100px) {
+  .background {
+    display: none;
+  }
+  .background2 {
+    display: none;
+  }
+  .background3 {
+    display: none;
+  }
+  .background4 {
+    display: none;
+  }
+  .background5 {
+    display: none;
+  }
+  .background6 {
     display: block;
   }
 }
